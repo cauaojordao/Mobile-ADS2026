@@ -1,4 +1,7 @@
+import ThemeToggler from "@/components/ThemeToggler";
 import { Text, View } from "react-native";
+
+
 
 export default function Index() {
   return (
@@ -9,7 +12,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <ThemeToggler />
     </View>
   );
 }
